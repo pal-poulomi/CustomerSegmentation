@@ -21,4 +21,4 @@ Supermarket Customer Segmentation - Unsupervised learning
 - Checking the clusters for bivariate analysis we see that the target/ideal cluster is Cluster 2 since it consists of customers with high income and high spending score 
 - 54% of Cluster 2 customers are women so companies can look for ways to attract these customers with marketing campaigns targeting popular items in this cluster
 - Cluster 0 (less income, high spend score) presents an interesting opportunity to market to the customers on sales event on popular items
-- Comparing the model performance metric scores it is clear that KMeans is the best algorithm for this use case with this dataset however this might change with a different kind of data
+- Comparing the model performance metric scores it is clear that KMeans is the best algorithm for this particular use case, it has the highest Silhouette score, highest Calinski score and least Davies Bouldin score among all the models evaluated, however this might change with a different kind of data
